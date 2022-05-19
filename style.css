@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+
+}
+.produtos-area{
+    background-color: #fff;
+}
+.navbar .logo{
+    width: 45%;
+}
+.banner-home{
+    width: 100%;
+    height: 300px;
+    background-image: url(imagens/thinkstockphotos-492546162.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-home h1{
+    font-size: 40px;
+    color: #000;
+    font-weight: bold;
+}
+.produtos img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    object-fit: contain;
+}
+.produtos .card-produtos{
+    margin: 0px;
+    border: 1px solid rgb(226, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 2px 3px 15px -2px rgba(0, 0, 0, 0.233);
+    min-height: 400px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.produtos .card-produtos button{
+    margin-top: 10px;
+    background-color: #0077b6;
+    color: #fff;
+}
+.produtos .card-produtos figcaption{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.produtos .card-produtos span{
+font-size: 20px;
+font-weight:600 ;
+color: #0077b6;
+}
+.container h2{
+    text-align: center;
+    color: #0077B6;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+
+}
+
+#margarina #temperos{
+    align-items: center;
+}
+@media only screen and (max-width: 765px) {
+    .contato{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        margin: 45px 45px 45px 45px;
+    }
+  }
